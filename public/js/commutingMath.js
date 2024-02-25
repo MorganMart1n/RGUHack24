@@ -21,11 +21,24 @@ function totalCommute(startLocation, endLocation) {
 
     // gets cost per mile using travel method.
     // Cost per mile for each travel method.
-    var carCostPerMile = 0;
-    var busCostPerMile = 0;
-    var trainCostPerMile = 0;
+    var carCostPerMile = 0.47;
+    var busCostPerMile = 1.50;
+    var trainCostPerMile = 0.55;
 
-    var totalCost = 0;
+    // if statements to determine 1 method of travel.
+    var selectedMethodCost = 0;
+    if(commuting.methodOfTravel == "car"){
+      selectedMethodCost = carCostPerMile;
+    }
+    if(commuting.methodOfTravel == "bus"){
+      selectedMethodCost = busCostPerMile;
+    }
+    if(commuting.methodOfTravel == "train"){
+      selectedMethodCost = trainCostPerMile;
+    }
+
+    // calculates the total cost of journey.
+    var totalCost = selectedMethodCost * totalDistance;
 
     // gets total emmision of journey.
     var totalEmmision = 0;
