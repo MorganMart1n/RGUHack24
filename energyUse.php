@@ -31,7 +31,7 @@
     <br>
     
     <main>
-        <button onclick = calculateEnergyUse()>Track emission</button>
+        <!-- <button onclick = calculateEnergyUse()>Track emission</button>
 
         <button style = float:right id = "displayButton"  onclick = listOutputs()>List outputs</button>
 
@@ -39,8 +39,19 @@
 
         <br>
         <br>
-        <p id = "avgEngPara"></p>
+        <p id = "avgEngPara"></p> -->
+
+
+        <form action = "search.php" method = "GET">
+            <input type = "text" name = "query" />
+            <input type = "submit" value = "Search" />
+        </form>
     </main>    
-    
+    <footer>
+        <div class="footer">
+            <p>Core29 &copy; 2024 | All Rights Reserved</p>
+            <img src="public/images/core29-logo-white.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>

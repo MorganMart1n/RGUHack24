@@ -25,26 +25,5 @@
                 </nav>
             </div>
         </div>
-    </header>
-
-    <div class = "contact info">
-        <div class = "contactInfoHeader">
-            <h1>Can we help?</h1>
-        </div>
-
-        <p>+44 (0)1224 937729</p>
-        <a href="hello@core29.uk">Send an email</a>
-    </div>
-
-    <div class = "Website purpose">
-        <div class = "WebPurposeTitle">
-            <h1>Tracking Emissions</h1>
-        </div>
-
-        <p>
-            This web based app was designed to track energy emissions and 
-            find a way to help reduce carbon footprint as part of the core29 challenge.
-        </p>
-    </div>
 </body>
 </html>
