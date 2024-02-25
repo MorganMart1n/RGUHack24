@@ -26,10 +26,18 @@
         </div>
     </header>
     <form>
-        <h2>Start</h2>
-        <input type="text" id="startPositionInput">
-        <h2>End</h2>
-        <input type="text" id="endPositionInput">
+        
+        <div class="locationInput">
+            <div>
+                <h2>Start</h2>
+                <input type="text" id="startPositionInput">
+            </div>
+            <div>
+                <h2>End</h2>
+                <input type="text" id="endPositionInput">
+            </div>
+        </div>
+        
 
         <script>
             function saveStartandEnd(){
@@ -37,20 +45,17 @@
                 var endPosition = document.getElementById("endPositionInput").value;
             }
         </script>
-
-        <label>How did u travel</label>
-        <label class="container">Car
-            <input type="radio" name="radio" id="carSelected">
-            <span class="checkmark"></span>
-        </label>
-        <label class="container">Bus
-            <input type="radio" name="radio" id="busSelected">
-            <span class="checkmark"></span>
-        </label>
-        <label class="container">Train
-            <input type="radio" name="radio" id="trainSelected">
-            <span class="checkmark"></span>
-        </label>
+        <div class="radioChoice">
+            <h2>How did u travel</h2>
+            <label class="container">Car</label>
+                <input type="radio" name="radio" id="carSelected">
+            <label class="container">Bus</label>
+                <input type="radio" name="radio" id="busSelected">
+            <label class="container">Train</label>
+                <input type="radio" name="radio" id="trainSelected">
+                
+            
+        </div>
 
         <script>
             // if statement to get selected travel method
@@ -76,6 +81,11 @@
     </form>
 
     
+    <footer>
+        <div class="footer">
+            <img src="" alt="">
+        </div>
+    </footer>
 
 </body>
 </html>
