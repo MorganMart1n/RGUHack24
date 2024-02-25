@@ -28,29 +28,29 @@
             </div>
         </div>
     </header>
-    <br>
-    <br>
-    
     <main>
+        <div class="energySearch">
+            <h2>Search for a Captured Energy Consumption Value:</h2>
+            <form action = "search.php" method = "GET">
+                <input type = "text" name = "query" />
+                <input type = "submit" value = "Search" />
+            </form>
+        </div>
+        
         <div class="energyAddBtn">
             <button onclick = calculateEnergyUse()>Add Energy Usage</button>
 
-            <button style = float:right id = "displayButton"  onclick = listOutputs()>List outputs</button>
+            <button id = "displayButton"  onclick = listOutputs()>List outputs</button>
         </div>
         
-
+        
         <div id = "energyValues"></div>
 
         <br>
         <br>
         <p id = "avgEngPara"></p>
 
-        <h2>Search for a Captured Energy Consumption Value:</h2>
-
-        <form action = "search.php" method = "GET">
-            <input type = "text" name = "query" />
-            <input type = "submit" value = "Search" />
-        </form>
+        
     </main>    
     <footer>
         <div class="footer">
