@@ -20,7 +20,6 @@
                             <li><a href = "commuting.php">Commuting Insights</a></li>
                             <li><a href = "energyUse.php">Energy tracker</a></li>
                             <li><a href = "carbonExchange.php">Carbon Exchange</a></li>
-                            <li><a href = "index.php">Logout</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -40,11 +39,13 @@
                     </div>
                     
                     <script>
+                        //Saves variables from inputs.
                         function saveStartandEnd(){
                             var startPosition = document.getElementById("startPositionInput").value;
                             var endPosition = document.getElementById("endPositionInput").value;
                         }
                     </script>
+                    <!-- Selection circles -->
                     <div class="radioChoice">
                         <h2>How did u travel</h2>
                         <label class="container">Car</label>
@@ -59,7 +60,7 @@
 
                     <script>
                         // if statement to get selected travel method
-
+                        //Check is particular circle has been selected
                         function selectedMethod(){
 
                             var methodOfTravel = "";
@@ -73,7 +74,6 @@
                             if(trainSelected == true){
                                 methodOfTravel = "train";
                             }
-
                         }
                     </script>
 
@@ -83,15 +83,11 @@
                 <img src="public/images/Screenshot 2024-02-25 at 07.12.09.png" alt="">
             </div>
         </div>
-        
-
-    
     <footer>
         <div class="footer">
             <p>Core29 &copy; 2024 | All Rights Reserved</p>
             <img src="public/images/core29-logo-white.png" alt="">
         </div>
     </footer>
-
 </body>
 </html>

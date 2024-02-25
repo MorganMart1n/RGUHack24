@@ -3,7 +3,7 @@
 
 
 $query = $_POST['username'];
-
+//Signs in based on user input
 $raw_results = mysqli_query($conn, "SELECT * FROM user
     WHERE username LIKE '%".$query."%' OR
     'text' LIKE '%".$query."%'") or die(mysqli_error($conn));

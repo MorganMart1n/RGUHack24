@@ -20,32 +20,17 @@
                             <li><a href = "commuting.php">Commuting Insights</a></li>
                             <li><a href = "energyUse.php">Energy tracker</a></li>
                             <li><a href = "carbonExchange.php">Carbon Exchange</a></li>
-                            <li><a href = "index.php">Logout</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-<?php
-    $sql = "SELECT * FROM procured_items";
-    $result = $conn->query($sql);
-    if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
-            echo "Material Id: " . $row["material_id"] . " - Name Of Material: " . $row["material_name"] . " - CO2 Emissions kg per unit: " . $row["CO2_Emissions_kg_CO2_per_unit"] . "<br>";
-        }
-    } else {
-        echo "ZERO RESULTS";
-    }
-    $conn->close();
-?>
-
-
-
+    <!--Form for inputting carbon material -->
+<form action = "carbonConverter.php" method = "GET">
+    <input type = "text" name = "query" />
+    <input type = "submit" value = "Search" />
+</form>
+</main>    
 <footer>
-        <div class="footer">
-            <p>Core29 &copy; 2024 | All Rights Reserved</p>
-            <img src="public/images/core29-logo-white.png" alt="">
-        </div>
-    </footer>
 </body>
 </html>
