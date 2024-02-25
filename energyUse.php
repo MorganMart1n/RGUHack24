@@ -27,25 +27,29 @@
             </div>
         </div>
     </header>
-    <br>
-    <br>
+
     
     <main>
-        <!--Generates a mesurement of energy-->
-        <button onclick = calculateEnergyUse()>Add Energy Usage</button>
-        <!--When clicked display all energy values-->
-        <button style = float:right id = "displayButton"  onclick = listOutputs()>List outputs</button>
+        <div class="energySearch">
+            <h2>Search for a Captured Energy Consumption Value:</h2>
+            <!--Search form for energy consumption -->
+            <form action = "search.php" method = "GET">
+                <input type = "text" name = "query" />
+                <input type = "submit" value = "Search" />
+            </form>
+        </div>
+        <div class="energyAddBtn">
+            <!--Generates a mesurement of energy-->
+            <button onclick = calculateEnergyUse()>Add Energy Usage</button>
+            <!--When clicked display all energy values-->
+            <button id = "displayButton"  onclick = listOutputs()>List outputs</button>
+        </div>
+        
         <div id = "energyValues"></div>
-        <br>
-        <br>
         <p id = "avgEngPara"></p>
 
-        <h2>Search for a Captured Energy Consumption Value:</h2>
-        <!--Search form for energy consumption -->
-        <form action = "search.php" method = "GET">
-            <input type = "text" name = "query" />
-            <input type = "submit" value = "Search" />
-        </form>
+        
+        
     </main>    
     <footer>
         <div class="footer">

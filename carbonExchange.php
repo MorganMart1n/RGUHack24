@@ -26,11 +26,21 @@
         </div>
     </header>
     <!--Form for inputting carbon material -->
-<form action = "carbonConverter.php" method = "GET">
-    <input type = "text" name = "query" />
-    <input type = "submit" value = "Search" />
-</form>
+    <div class="carbonSearch">
+        <form action = "carbonConverter.php" method = "GET">
+        <h2>Carbon Search</h2>
+        <input type ="text" name = "query" />
+        <input type ="submit" value = "Search" />
+    
+    
+        </form>
+    </div>
 </main>    
 <footer>
+        <div class="footer">
+            <p>Core29 &copy; 2024 | All Rights Reserved</p>
+            <img src="public/images/core29-logo-white.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>

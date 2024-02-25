@@ -246,7 +246,29 @@ body{
 }
 
 
-
+.carbonSearch{
+    margin-left: 50px;
+}
+.carbonSearch input[type=submit]{
+    margin-top: 20px;
+    width: 200px;
+    font-size: 16px;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 40px;
+    border-style: none;
+    background-color: #c1d72d;
+}
+.carbonSearch input[type=text]{
+    margin-top: 20px;
+    width: 500px;
+    font-size: 16px;
+    padding: 15px;
+    color: #737b82;
+    border-radius: 40px;
+    
+    outline: #737b82;
+}
 
 
 .footer{
@@ -257,7 +279,7 @@ body{
     background-color: #182c3c;
     padding: 30px;
     height: 100px;
-    margin-top: 200px;
+    margin-top: 300px;
     color: #ffffff;
 }
 .footer img{
