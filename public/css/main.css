@@ -154,6 +154,38 @@ body{
 }
 
 
+.dashInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+.dashInfo1{
+    background-color: #c1d72d;
+    padding: 100px;
+    border-radius: 50px;
+}
+.dashInfo1 button{
+    margin-top: 20px;
+    width: 150px;
+    font-size: 16px;
+    padding: 15px;
+    color: #737b82;
+    border-radius: 40px;
+    border-style: none;
+    
+    background-color: #ffffff;
+    /*outline-color: #b28ee4;*/
+}
+.dashInfo2{
+    background-color: #c1d72d;
+    width: 50%;
+    padding: 100px;
+    border-radius: 50px;
+}
+
+
+
 .footer{
     display: flex;
     flex-direction: row;
