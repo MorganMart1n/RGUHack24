@@ -9,7 +9,7 @@
 <body>
 <div class="loginHero">
     <div class="loginLogo">
-        <img src="public/images/core29-logo.png" alt="Logo"/>
+        <img src="public/images/core29-logo-white.png" alt="Logo"/>
     </div>
 </div>
 <div class="login">

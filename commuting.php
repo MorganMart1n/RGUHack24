@@ -8,74 +8,88 @@
         <link rel="stylesheet" href="public/css/main.css">
     </head>
 <body class="commutingBody">
-    <header>
-        <div class="header">
-            <div>
-                <img src="public/images/core29-logo.png" alt="">
+    <div class="contentWrap">
+        <header>
+            <div class="header">
+                <div>
+                    <img src="public/images/core29-logo.png" alt="">
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href = "dashboard.php">Home</a></li>
+                            <li><a href = "commuting.php">Commuting Insights</a></li>
+                            <li><a href = "energyUse.php">Energy tracker</a></li>
+                            <li><a href = "co2.php">Emissions tracker</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href = "dashboard.php">Home</a></li>
-                        <li><a href = "commuting.php">Commuting Insights</a></li>
-                        <li><a href = "energyUse.php">Energy tracker</a></li>
-                        <li><a href = "co2.php">Emissions tracker</a></li>
-                    </ul>
-                </nav>
+        </header>
+        <form>
+            
+            <div class="locationInput">
+                <div>
+                    <h2>Start</h2>
+                    <input type="text" id="startPositionInput">
+                </div>
+                <div>
+                    <h2>End</h2>
+                    <input type="text" id="endPositionInput">
+                </div>
             </div>
-        </div>
-    </header>
-    <form>
-        <h2>Start</h2>
-        <input type="text" id="startPositionInput">
-        <h2>End</h2>
-        <input type="text" id="endPositionInput">
+            
 
-        <script>
-            function saveStartandEnd(){
-                var startPosition = document.getElementById("startPositionInput").value;
-                var endPosition = document.getElementById("endPositionInput").value;
-            }
-        </script>
-
-        <label>How did u travel</label>
-        <label class="container">Car
-            <input type="radio" name="radio" id="carSelected">
-            <span class="checkmark"></span>
-        </label>
-        <label class="container">Bus
-            <input type="radio" name="radio" id="busSelected">
-            <span class="checkmark"></span>
-        </label>
-        <label class="container">Train
-            <input type="radio" name="radio" id="trainSelected">
-            <span class="checkmark"></span>
-        </label>
-
-        <script>
-            // if statement to get selected travel method
-
-            function selectedMethod(){
-
-                var methodOfTravel = "";
-
-                if (carSelected == true){
-                    methodOfTravel = "car";
+            <script>
+                function saveStartandEnd(){
+                    var startPosition = document.getElementById("startPositionInput").value;
+                    var endPosition = document.getElementById("endPositionInput").value;
                 }
-                if (busSelected == true){
-                    methodOfTravel = "bus";
-                }
-                if(trainSelected == true){
-                    methodOfTravel = "train";
-                }
+            </script>
+            <div class="radioChoice">
+                <h2>How did u travel</h2>
+                <label class="container">Car</label>
+                    <input type="radio" name="radio" id="carSelected">
+                <label class="container">Bus</label>
+                    <input type="radio" name="radio" id="busSelected">
+                <label class="container">Train</label>
+                    <input type="radio" name="radio" id="trainSelected">
+                    
+                
+            </div>
 
-            }
-        </script>
+            <script>
+                // if statement to get selected travel method
 
-        <button type="submit">Add</button>
-    </form>
+                function selectedMethod(){
+
+                    var methodOfTravel = "";
+
+                    if (carSelected == true){
+                        methodOfTravel = "car";
+                    }
+                    if (busSelected == true){
+                        methodOfTravel = "bus";
+                    }
+                    if(trainSelected == true){
+                        methodOfTravel = "train";
+                    }
+
+                }
+            </script>
+
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    
 
     
+    <footer>
+        <div class="footer">
+            <p>Core29 &copy; 2024 | All Rights Reserved</p>
+            <img src="public/images/core29-logo-white.png" alt="">
+        </div>
+    </footer>
 
 </body>
 </html>
