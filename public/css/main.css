@@ -200,7 +200,7 @@ body{
 }
 
 .energyAddBtn{
-    
+    margin-left: 50px;
 }
 .energyAddBtn button{
     margin-top: 20px;
@@ -230,7 +230,7 @@ body{
     width: 500px;
     font-size: 16px;
     padding: 15px;
-    color: #ffffff;
+    color: #737b82;
     border-radius: 40px;
     
     outline: #737b82;
