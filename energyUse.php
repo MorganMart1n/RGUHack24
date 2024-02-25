@@ -41,6 +41,11 @@
         <br>
         <p id = "avgEngPara"></p>
     </main>    
-    
+    <footer>
+        <div class="footer">
+            <p>Core29 &copy; 2024 | All Rights Reserved</p>
+            <img src="public/images/core29-logo-white.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
