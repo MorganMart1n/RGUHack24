@@ -22,6 +22,7 @@
                         <li><a href = "commuting.php">Commuting Insights</a></li>
                         <li><a href = "energyUse.php">Energy tracker</a></li>
                         <li><a href = "carbonExchange.php">Carbon Exchange</a></li>
+                        <li><a href = "index.php">Logout</a></li>
                     </ul>
                 </nav>
             </div>
