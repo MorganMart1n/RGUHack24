@@ -184,9 +184,7 @@ body{
     border-radius: 50px;
 }
 
-.energyAddBtn{
-    
-}
+
 .energyAddBtn button{
     margin-top: 20px;
     width: 150px;
@@ -200,7 +198,9 @@ body{
 
 
 
-
+.noResults{
+    font-weight:1000px;
+}
 
 
 
