@@ -40,8 +40,14 @@ function totalCommute(startLocation, endLocation) {
     // calculates the total cost of journey.
     var totalCost = selectedMethodCost * totalDistance;
 
+    // code for energy emmision.
+    var power = 4.1; // litre of fuel per mile
+    var energyConsumption = power * totalDistance;
+
+    var emmissionCoefficient = 0.5; // example
+
     // gets total emmision of journey.
-    var totalEmmision = 0;
+    var totalEmmision = energyConsumption * emmissionCoefficient;;
 
   return startLocation, totalDistace, totalDistance, totalCost, totalEmmision;
 };
