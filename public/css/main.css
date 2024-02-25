@@ -160,4 +160,12 @@ body{
     width: 200px;
 }
 
+.contactInfoHeader{
+    padding-left: 10px;
+    background-color:  green;
+    color: white;
+    height: 50px;
+    width: 220px;
+   
 
+}
