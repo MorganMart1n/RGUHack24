@@ -20,6 +20,7 @@
                             <li><a href = "commuting.php">Commuting Insights</a></li>
                             <li><a href = "energyUse.php">Energy tracker</a></li>
                             <li><a href = "carbonExchange.php">Carbon Exchange</a></li>
+                            <li><a href = "index.php">Logout</a></li>
                     </ul>
                 </nav>
             </div>
@@ -40,6 +41,11 @@
 
 
 
-
+<footer>
+        <div class="footer">
+            <p>Core29 &copy; 2024 | All Rights Reserved</p>
+            <img src="public/images/core29-logo-white.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
