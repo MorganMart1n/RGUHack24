@@ -31,7 +31,7 @@
     <br>
     
     <main>
-        <!-- <button onclick = calculateEnergyUse()>Track emission</button>
+        <button onclick = calculateEnergyUse()>Add Energy Usage</button>
 
         <button style = float:right id = "displayButton"  onclick = listOutputs()>List outputs</button>
 
@@ -39,8 +39,9 @@
 
         <br>
         <br>
-        <p id = "avgEngPara"></p> -->
+        <p id = "avgEngPara"></p>
 
+        <h2>Search for a Captured Energy Consumption Value:</h2>
 
         <form action = "search.php" method = "GET">
             <input type = "text" name = "query" />
