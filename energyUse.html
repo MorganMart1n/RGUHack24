@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Core29</title>
+        <link rel="icon" type="image" href="public/images/favicon-128x128.png">
+        <link rel = "stylesheet" href = "public/css/main.css">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <script src = "public/js/energyUse.js"></script>
+    </head>
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <img src="public/images/core29-logo.png" alt="">
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href = "dashboard.html">Home</a></li>
+                        <li><a href = "commuting.html">Commuting Insights</a></li>
+                        <li><a href = "energyUse.html">Energy tracker</a></li>
+                        <li><a href = "co2.html">Emissions tracker</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    
+    <main>
+        <button onclick = calculateEnergyUse()>Track emission</button>
+
+        <button style = float:right id = "displayButton"  onclick = listOutputs()>List outputs</button>
+
+        <div id = "energyValues"></div>
+
+        <br>
+        <br>
+        <p id = "avgEngPara"></p>
+    </main>    
+    
+</body>
+</html>
