@@ -83,7 +83,8 @@
     
     <footer>
         <div class="footer">
-            <img src="" alt="">
+            <p>Core29 &copy; 2024 | All Rights Reserved</p>
+            <img src="public/images/core29-logo-white.png" alt="">
         </div>
     </footer>
 

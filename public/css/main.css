@@ -146,3 +146,18 @@ body{
 }
 
 
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #182c3c;
+    padding: 30px;
+    height: 100px;
+}
+.footer img{
+    height: 100px;
+    width: 200px;
+}
+
+
