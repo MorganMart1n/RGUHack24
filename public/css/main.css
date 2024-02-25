@@ -200,7 +200,7 @@ body{
 }
 
 .energyAddBtn{
-    margin-left: 50px;
+    
 }
 .energyAddBtn button{
     margin-top: 20px;
@@ -241,7 +241,9 @@ body{
 }
 
 
-
+.noResults{
+    font-weight:1000px;
+}
 
 
 
