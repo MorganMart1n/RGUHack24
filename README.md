@@ -7,7 +7,7 @@
 
 **Core29 Hackathon Project**
 
-This project was developed for the **Core29 Hackathon**, where participants were challenged to complete one or more of the provided objectives. Our team successfully covered **all three** objectives.  
+This project was developed for the **RGU Hackathon**, where participants were challenged to complete one or more of the provided objectives. Our team successfully covered **all three** objectives.  
 
 We utilized the following technologies:  
 **PHP**, **JavaScript**, **SQL**, **HTML**, and **CSS**.
